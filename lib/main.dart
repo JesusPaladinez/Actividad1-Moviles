@@ -4,12 +4,12 @@ import 'menu.dart';
 import 'package:get/get.dart';
 import './1/encabezado.dart';
 import './1/deportes.dart';
-import './1/entretenimiento.dart';
 import './3/screens/citas_medicas_screen.dart';
 import './3/screens/home_screen.dart';
 import './3/screens/menu_hospital_screen.dart';
 import './4/inicio_sesion.dart';
 import './4/registro.dart';
+import './5/entretenimiento.dart';
 
 void main() {
   Get.put(Controlador());
@@ -38,3 +38,5 @@ class _PrincipalState extends State<Principal> {
     );
   }
 }
+
+
